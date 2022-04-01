@@ -1,0 +1,31 @@
+{
+    "name": "jte",
+    "displayName": "jte",
+    "description": "JTE language support for Visual Studio Code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "jte",
+            "aliases": ["JTE Templates", "jte"],
+            "extensions": ["jte"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "jte",
+            "scopeName": "text.html.jte",
+            "path": "./syntaxes/jte.tmLanguage.json",
+            "embeddedLanguages": {
+                "source.css": "css",
+                "source.js": "javascript",
+                "source.html": "html",
+                "source.java": "java"
+            }
+        }]
+    }
+}
