@@ -1,65 +1,45 @@
-# jte README
+# JTE template syntax highlight
 
-This is the README for your extension "jte". After writing up a brief description, we recommend including the following sections.
+This is a vscode extention for JTE template syntax highlight.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Based on HTML syntax and extended with embedded languages CSS, Javascript and Java.
 
-For example if there is an image subfolder under your extension project workspace:
+JTE test template without highlights:
+![Without highlights](images/without_highlights.png)
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+JTE test template with highlights:
+![With highlights](images/with_highlights.png)
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+No requirements or dependencies.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+No specific extension settings.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+No known issues.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+This is the initial release covering the syntax highlighting.
 
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+Initial release.
 
 -----------------------------------------------------------------------------------------------------------
 
-## Working with Markdown
+## References
 
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
+* [JTE official website](https://jte.gg/)
+* [Language Extensions Overview](https://code.visualstudio.com/api/language-extensions/overview)
+* [Publishing Extensions](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
+* [Visual Studio Code's Markdown Support](https://code.visualstudio.com/docs/languages/markdown)
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**

@@ -1,8 +1,17 @@
 {
-    "name": "jte",
-    "displayName": "jte",
-    "description": "JTE language support for Visual Studio Code",
-    "version": "0.0.1",
+    "name": "jte-template-syntax-highlight",
+    "displayName": "JTE template syntax highlight",
+    "description": "JTE template syntax highlight for Visual Studio Code",
+    "version": "1.0.0",
+    "publisher": "maj2c",
+    "icon": "images/favicon-32x32.png",
+    "author": {
+        "name": "Mansour Abou Jaoude"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/maj2c/jte-template-syntax-highlight.git"
+    },
     "engines": {
         "vscode": "^1.66.0"
     },
