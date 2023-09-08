@@ -12,7 +12,7 @@
 <head>
     @if(page.getDescription() != null)
         <meta name="description" content="${page.getDescription()}">
-        <meta name="description" content="${ boolean b = false; Integer i = 0; for(int i=0; i<10; i++){ i++;} page.getDescription()}">
+        <meta name="description" content="${for(int i=0; i<10; i++){ i++;} page.getDescription()}">
         <meta name="description" content=";{page.getDescription()};">
         <meta name="description" content=";{ boolean b = false; page.getDescription()};">
         <meta name="description" content="{ boolean b = false; page.getDescription()};">
@@ -30,9 +30,27 @@
     <div class="content">
         ${content}
     </div>
+    ${
+        boolean b = false;
+        Integer j = 0;
+        for(int i=0; i<10; i++){
+            i++;
+            j = i * 2;
+        }
+        page.getDescription();
+    }
     @if (footer != null)
         <div class="footer">
             ${footer}
         </div>
     @endif
+    <script>
+    let a = 1;
+    const b = 2;
+    for (int i=0; i<10; i++) {
+        i++;
+        a = b * i;
+    }
+    </script>
 </body>
+

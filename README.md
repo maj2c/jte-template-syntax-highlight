@@ -14,7 +14,7 @@ JTE test template with highlights:
 
 ## Requirements
 
-No requirements or dependencies.
+The template should have the jte or kte extention.
 
 ## Extension Settings
 
@@ -23,14 +23,6 @@ No specific extension settings.
 ## Known Issues
 
 No known issues.
-
-## Release Notes
-
-This is the initial release covering the syntax highlighting.
-
-### 1.0.0
-
-Initial release.
 
 -----------------------------------------------------------------------------------------------------------
 

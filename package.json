@@ -2,9 +2,9 @@
     "name": "jte-template-syntax-highlight",
     "displayName": "JTE template syntax highlight",
     "description": "JTE template syntax highlight for Visual Studio Code",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "maj2c",
-    "icon": "images/favicon-32x32.png",
+    "icon": "images/jte_syntax_highlight.png",
     "author": {
         "name": "Mansour Abou Jaoude"
     },
@@ -21,8 +21,8 @@
     "contributes": {
         "languages": [{
             "id": "jte",
-            "aliases": ["JTE Templates", "jte"],
-            "extensions": ["jte"],
+            "aliases": ["JTE Templates", "jte", "KTE Templates", "kte"],
+            "extensions": ["jte", "kte"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
