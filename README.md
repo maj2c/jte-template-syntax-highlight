@@ -1,6 +1,6 @@
 # JTE template syntax highlight
 
-This is a vscode extention for JTE template syntax highlight.
+This is a vscode extension for JTE template syntax highlight.
 
 ## Features
 
@@ -14,7 +14,7 @@ JTE test template with highlights:
 
 ## Requirements
 
-The template should have the jte or kte extention.
+The template should have the jte or kte extension.
 
 ## Extension Settings
 

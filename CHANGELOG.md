@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.2]
+
+- Corrected a typo
+
 ## [1.0.1]
 
 - Modified logo
