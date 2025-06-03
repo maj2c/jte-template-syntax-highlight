@@ -6,6 +6,9 @@
     ],
     "patterns": [
         {
+            "include": "#jte-keyword"
+        },
+        {
             "include": "#jte-comment"
         },
         {
@@ -517,6 +520,10 @@
                     "name": "punctuation.definition.block.comment.jte"
                 }
             }
+        },
+        "jte-keyword": {
+            "name": "keyword.jte",
+            "match": "@(import|param|if|else|elseif|endif|for|endfor|template)"
         }
     }
 }

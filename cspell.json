@@ -1,0 +1,36 @@
+/* cSpell:disable */
+{
+    "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+    "version": "0.2",
+    "dictionaryDefinitions": [
+      {
+        "name": "cspell-project-words",
+        "path": "./cspell-project-words.txt",
+        "addWords": true
+      }
+    ],
+    "dictionaries": [
+        "cspell-project-words",
+        "typescript",
+        "node",
+        "powershell",
+        "html",
+        "css",
+        "cpp",
+        "csharp",
+        "bash",
+        "java",
+    ],
+    "enabledFileTypes": {"jte": true},
+    "ignorePaths": [
+        "package-lock.json",
+        "node_modules",
+        "vscode-extension",
+        ".git/objects",
+        ".vscode",
+        "Untitled.txt",
+        "/cspell-project-words.txt"],
+    "ignoreWords": [
+    ],
+    "language": "en,nl",
+}

@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.3]
+
+- Added keyword highlight
+
 ## [1.0.2]
 
 - Corrected a typo

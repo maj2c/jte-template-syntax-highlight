@@ -2,7 +2,7 @@
     "name": "jte-template-syntax-highlight",
     "displayName": "JTE template syntax highlight",
     "description": "JTE template syntax highlight for Visual Studio Code",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "publisher": "maj2c",
     "icon": "images/jte_syntax_highlight.png",
     "author": {
